@@ -1,0 +1,184 @@
+/*------fonts------------
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ */
+
+/*--colors used
+#ef8172", #ff4c68, white, */
+
+
+/*!-------------Common tags------------------ */
+body{
+text-align: center;
+}
+
+/*Btn,Icon,Bg */
+.dlbtn{
+margin:5% 3% 5% 0;
+}
+
+.bgdefault{
+background-color:#ff4c68;
+}
+
+.whitebg{
+background-color:white;
+}
+
+.orangebg{
+background-color:#ef8172;
+}
+
+.iconcon{
+color:#ef8172;
+margin-bottom:1rem;
+}
+
+.iconcon:hover{
+color:#ff4c68;
+
+}
+
+/*Title tags*/
+.headtitle{
+font-size: 3.5rem;
+line-height:1.5;
+color:white;
+padding: 4rem 1rem 2rem 1rem;
+text-align:left;}
+
+.testimonialtitle{
+  font-weight:bold;
+  line-height: 1.5;
+  font-size:3rem}
+
+
+.foottitle{
+Color:#ff4c68;
+padding-top:2%;
+font-size:1.5rem;
+margin-bottom:5%
+}
+
+/*!-------------Tags for navbar and title section------------------ */
+.titlecontainter{
+padding:3% 10% 7%;
+font-family: 'Montserrat', sans-serif;
+}
+
+.headnavbar{
+font-size: 1.3rem;
+padding: 0 0 4.5rem;
+}
+
+.nav-item{
+padding: 0 1.5rem;
+font-family: 'Ubuntu', sans-serif;
+font-size: 1.2rem
+}
+
+.navbar-brand{
+font-size: 2.5rem;
+font-family: 'Ubuntu', sans-serif;
+font-weight: bold;
+}
+
+.titleimg{
+transform:rotate(20deg);
+width:22%;
+position:absolute;
+right:20%
+}
+
+
+/*!-------------Tags for Features------------------ */
+.secondcont{
+font-family: 'Ubuntu', sans-serif;
+position:relative;
+}
+
+.container-fluid.secondcont{
+padding:7% 15%;
+}
+
+/*!-------------Tags for Testimonials & Press------------------ */
+
+.testimonialimg{
+border-radius:100%;
+height:10%;
+width:10%;
+margin:1.5rem;
+}
+
+
+.presslogo{
+width:15%;
+margin:1.5rem 1.5rem 3rem 1.5rem;
+}
+
+.testimonalandpress{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  padding: 3% 5%;
+  }
+
+.carousel.slide.testiomnialandpress{
+padding: 7% 15%;
+}
+
+/*!-------------Tags for Pricing------------------ */
+.priceplandesc{
+font-family:'Montserrat', sans-serif;
+line-height:1.5;
+padding:3.5rem 1rem;
+}
+
+.pricecards{
+font-family: 'Ubuntu', sans-serif;
+line-height:1;
+padding:1rem;
+}
+
+.pricecardsheader{
+color:#ff75a0;
+background-color:white;
+font-weight:bold;
+}
+
+/*!-------------Tags for CTA and footer------------------ */
+.ctaandfoot{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.5;
+}
+
+.ctaitem{
+color:white;
+padding-top:7%;
+font-size:2rem;
+}
+
+.ctaandfoot .container-fluid{
+padding:5% 5%;
+}
+
+
+.cr{
+margin: 0 50 0 50;
+font-size:10px;
+color:grey;
+}
+
+/*--------------------Media section-----------------*/
+@media (max-width:1024px){
+
+.titleimg{
+position:static;
+transform:rotate(0deg);
+width:50%
+}
+
+.titlerow{
+text-align: center;
+}
+
+}
