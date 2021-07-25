@@ -1,0 +1,211 @@
+body {
+margin: 0;
+text-align: center;
+
+
+}
+
+hr{
+border-style:dotted none none none;
+border-width:0.5em;
+width:5%;
+color:#fde8cd;
+}
+
+
+h2{
+color:#66BFBF;
+font-family: 'Brygada 1918', serif;
+}
+
+p{
+font-family: 'Brygada 1918', serif;
+padding:1em;
+line-height: 1.5;
+}
+
+
+/*--------TAGS FOR CLASSES --------------*/
+.topbox{
+background-color: #edeef7;
+padding-top: 3.5em;
+margin-top: 0;
+position: relative;
+font-family: 'Brygada 1918', serif;
+
+}
+
+.topname{
+  background-color: #edeef7;
+  color:#66BFBF;
+  margin: 50px auto 0 auto;
+  width:15%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.0rem;
+
+}
+
+
+.topdesc{
+font-size: 2rem;
+font-weight:normal;
+color:#66BFBF;
+
+}
+
+.dp{
+width: 300px;
+border-radius:50%;
+padding: 1em 0 0 0
+
+}
+
+
+.QA{
+text-decoration: underline;
+font-family: 'Orbitron', sans-serif;
+}
+
+.cloud1{
+position: absolute;
+right: 300px;
+top: 50px;
+
+}
+
+.cloud2{
+position: absolute;
+bottom: 300px;
+left: 250px;
+
+}
+
+.middle-container{
+padding: 2em 0 1em 0;
+
+}
+
+
+.skill-row{
+width:50%;
+margin: 3.25em auto;
+text-align:left;
+
+}
+
+
+.skillimg{
+width:20%;
+float:left;
+margin-right:0.2em;
+
+}
+
+.skillimg2{
+width:25%;
+float:right;
+margin-right: 20em;
+border-radius:55%;
+}
+
+
+.skillsp{
+padding:0 0 1em 0;
+width: 10%;
+margin: auto;
+
+}
+
+.footer-link{
+color:#11999E;
+padding:1em 1em;
+text-decoration: none;
+}
+
+.footer-link:hover{
+color:#B9B513;
+
+}
+
+.contact-me{
+padding: 0.7em 0;
+font-family: 'Brygada 1918', serif;
+}
+
+.skilltitles {
+  display:flex;
+  background-color:#edeef7;
+  padding:1em;
+  border-radius:1.2em;
+  min-width:1em;
+  max-width:5.75em;
+  min-height:2.5em;
+  margin:1.2em;
+  position:relative;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.skilltitles1 {
+  display:inline-block;
+  background-color:#edeef7;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:5px;
+  border-radius:10px;
+  min-width:1.5em;
+  max-width:13.75em;
+  min-height:2.5em;
+  margin:1.2em;
+
+}
+
+
+
+.bottom-container{
+padding: 2em 0;
+background-color: #edeef7;
+}
+
+.credit{
+font-size:8px
+}
+
+
+.Contactbutton {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 7px;
+   color: #155C41;
+   font-family: 'Brygada 1918', serif;
+   font-size: 15px;
+   font-weight: 300;
+   padding: 10px;
+   background-color: #7DFCCC;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+
+}
+
+.Contactbutton:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 7px;
+   text-decoration: none;
+}
