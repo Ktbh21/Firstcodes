@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+/*--Classes for dice--*/
+
+.firstdice .seconddice{
+display: inline-block;
+background-color:#faf2da;
+
+}
+
+
+
+.huge{
+font-size: 10rem;
+font-weight: bold;
+}
